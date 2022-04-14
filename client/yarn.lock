@@ -9032,6 +9032,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.11.0.tgz"
   "version" "16.11.0"
 
+"react-loading-icons@^1.0.8":
+  "integrity" "sha512-j0myUwDUPoo3qaPkbgnA7U2RNHqLLC+wXcpMWe+rtk3Iw+mGHltZ3QitPSHFKtsFKlpM9UlMmZGZ6sw6WVVW7w=="
+  "resolved" "https://registry.npmjs.org/react-loading-icons/-/react-loading-icons-1.0.8.tgz"
+  "version" "1.0.8"
+
 "react-scripts@3.2.0":
   "integrity" "sha512-6LzuKbE2B4eFQG6i1FnTScn9HDcWBfXXnOwW9xKFPJ/E3rK8i1ufbOZ0ocKyRPxJAKdN7iqg3i7lt0+oxkSVOA=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-3.2.0.tgz"

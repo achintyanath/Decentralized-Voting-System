@@ -6,6 +6,7 @@
   margin-left: auto;
   overflow: auto;
 }
+
 .input-ac {
   margin: 0.5em;
   margin-left: 0;
@@ -13,11 +14,13 @@
   display: block;
   width: 30rem;
 }
+
 .label-ac {
   display: block;
   margin: 0.1em;
   padding: 0.5em;
 }
+
 .btn-add {
   width: 25%;
   padding: 1em;
@@ -38,6 +41,28 @@
 
 .candidate{
     max-height: '21px';
-    overflow :  'auto'
+    overflow :  'auto';
+    text-align: center;
+}
+
+.add-candidate-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;  
+}
+
+table {
+  border-collapse: collapse;
+  width:90%;
+}
+
+th,td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: white;
 }
 

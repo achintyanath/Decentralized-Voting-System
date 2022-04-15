@@ -1,0 +1,14 @@
+.election-status{
+  padding: 0.75rem;
+  margin: 0.5rem;
+  width: 100%;
+  border: 1px solid cyan;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 4px;
+  overflow: auto;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+};

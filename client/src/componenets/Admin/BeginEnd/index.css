@@ -1,0 +1,23 @@
+.center{
+  text-align: center;
+}
+
+.button {
+  display: block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  height: 2rem;
+  min-width: max-content;
+  text-align: center;
+  width: 10rem;
+  align-self: center;
+  border-radius: 5px;
+  border: solid 0.5px black;
+}
+
+.add-candidate{
+    /* background-color: #fdfdfd; */
+    text-align: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}

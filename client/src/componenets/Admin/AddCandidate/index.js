@@ -99,11 +99,9 @@ export default function AddCandidate () {
   }
 
   if (web3 == null) {
-    return <Loading admin ={admin} />
+    return <Loading admin={admin} />
   } else if (!admin) {
-    return (
-      <AdminOnly page='Add Candidate Page.' />
-    )
+    return <AdminOnly page='Add Candidate Page.' />
   } else {
     return (
       <React.Fragment>

@@ -1,22 +1,22 @@
 table {
     border-collapse: collapse;
     width: 100%;
-}
-
-th,
-td {
+  }
+  
+  th,
+  td {
     padding: 12px;
     text-align: left;
     border-bottom: 2px solid rgb(193, 193, 193);
-}
-
-tr:nth-child(even) {
+  }
+  
+  tr:nth-child(even) {
     background-color: rgb(255, 255, 255);
-}
-
-.container-winner {
+  }
+  
+  .container-winner {
     transition: ease all 1.0s;
-    background-color: rgb(218, 227, 223);
+    background-color: rgb(255, 255, 255);
     border-radius: 9px;
     width: 750px;
     padding: 20px;
@@ -25,70 +25,70 @@ tr:nth-child(even) {
     margin-top: 15px;
     margin-bottom: 15px;
     overflow: auto;
-}
-
-.winner-slogan {
+  }
+  
+  .winner-slogan {
     padding: 10px 10px 10px 2px;
     color: rgb(100, 198, 211);
     font-size: 1.5em;
     margin: 6px 0px;
     text-align: justify;
     overflow: auto;
-}
-
-.winner-info {
+  }
+  
+  .winner-info {
     width: 73%;
     max-height: 150px;
     display: inline-block;
     margin-right: 1%;
     overflow: auto;
-}
-
-.winner-votes {
+  }
+  
+  .winner-votes {
     width: 25%;
     padding: 2px;
     display: inline-block;
     margin-left: 1%;
-}
-
-.winner-tag {
+  }
+  
+  .winner-tag {
     text-align: left;
     color: rgb(233, 49, 141);
-}
-
-.votes-tag {
+  }
+  
+  .votes-tag {
     text-align: left;
     color: rgb(142, 140, 140);
-}
-
-.vote-count {
+  }
+  
+  .vote-count {
     margin-top: 10px;
     padding: 2px;
     font-size: 50px;
     overflow-y: auto;
     text-align: center;
-}
-
-@media all and (max-width: 850px) {
+  }
+  
+  @media all and (max-width: 850px) {
     .container-winner {
         width: 750px;
     }
-}
-
-@media all and (max-width: 750px) {
+  }
+  
+  @media all and (max-width: 750px) {
     .container-winner {
         width: 650px;
     }
-}
-
-@media all and (max-width: 650px) {
+  }
+  
+  @media all and (max-width: 650px) {
     .container-winner {
         width: 450px;
     }
-}
-
-@media all and (max-width: 400px) {
+  }
+  
+  @media all and (max-width: 400px) {
     .container-winner {
         width: 350px;
     }
-}
+  }

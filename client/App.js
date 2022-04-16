@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './src/componenets/Home/Home'
 import Voting from './src/componenets/Voting/index'
-import Results from './src/component/Results/Results'
+import Result from './src/componenets/Results/Results'
 import Registration from './src/component/Registration/Registration'
 import AddCandidate from './src/componenets/Admin/AddCandidate/index'
 import Verification from './src/componenets/Admin/Verification/index'
@@ -19,7 +19,7 @@ export default class App extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/AddCandidate' component={AddCandidate} />
             <Route exact path='/Voting' component={Voting} />
-            <Route exact path='/Results' component={Results} />
+            <Route exact path='/Results' component={Result} />
             <Route exact path='/Registration' component={Registration} />
             <Route exact path='/Verification' component={Verification} />
             <Route exact path='*' component={NotFound} />

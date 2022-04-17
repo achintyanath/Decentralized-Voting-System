@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../../Navbar/Navigation'
 import NavbarAdmin from '../../Navbar/NavigationAdmin'
 import getWeb3 from '../../../getWeb3'
 import Election from '../../../contracts/Election.json'
-import { Circles } from 'react-loading-icons'
-import AdminOnly from '../../AdminOnly'
+import AdminOnly from '../OnlyAdmin'
 import './index.css'
 import Loading from '../../Loading'
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../../Navbar/Navigation'
-import NavbarAdmin from '../../Navbar/NavigationAdmin'
+import Navbar from '../Navbar/Navigation'
+import NavbarAdmin from '../Navbar/NavigationAdmin'
 import { Circles } from 'react-loading-icons'
 
 

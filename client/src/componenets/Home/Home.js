@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navigation'
 import NavbarAdmin from '../Navbar/NavigationAdmin'
-import UserHome from '../UserHome'
-import BeginEnd from '../Admin/StartEnd/StartEnd'
+import UserHome from './UserHome';
+import BeginEnd from '../Admin/BeginEnd/index'
 import Status from '../Admin/Status/index'
 import getWeb3 from '../../getWeb3'
 import Election from '../../contracts/Election.json'

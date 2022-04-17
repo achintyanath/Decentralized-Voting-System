@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navigation'
 import NavbarAdmin from '../Navbar/NavigationAdmin'
-import getWeb3 from '../../getWeb3'
 import NotInit from '../Notinit'
+import getWeb3 from '../../getWeb3'
 import Election from '../../contracts/Election.json'
 import './index.css'
 import Loading from '../Loading'
@@ -98,9 +98,9 @@ export default function Voting () {
         .send({ from: account, gas: 1000000 })
       window.location.reload()
     }
-    async function confirmVote (id, header) {
+    async function confirmVote (id, name) {
       var r = window.confirm(
-        'Vote for ' + header + ' with Id ' + id + '.\nAre you sure?'
+        'Vote for ' + name  + '.\nAre you sure?'
       )
       if (r === true) {
         castVote(id)
@@ -113,7 +113,7 @@ export default function Voting () {
         <td>{candidate.slogan}</td>
         <td>
           <button
-            onClick={() => confirmVote(candidate.id, candidate.header)}
+            onClick={() => confirmVote(candidate.id, candidate.name)}
             className='vote-bth'
             disabled={
               !currentVoter.isRegistered ||

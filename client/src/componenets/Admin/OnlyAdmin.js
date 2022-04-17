@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar/Navigation";
+import Navbar from "../Navbar/Navigation";
 
 const AdminOnly = (props) => {
   return (

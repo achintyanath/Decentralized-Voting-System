@@ -4,7 +4,7 @@ import NavbarAdmin from '../../Navbar/NavigationAdmin'
 import getWeb3 from '../../../getWeb3'
 import Election from '../../../contracts/Election.json'
 import AdminOnly from '../../Admin/OnlyAdmin'
-import './Verification.css'
+import './index.css'
 import Loading from '../../Loading'
 
 export default function Verification () {
